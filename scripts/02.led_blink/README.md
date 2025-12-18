@@ -44,6 +44,8 @@ Arduino Board:
 ### Circuit Diagrams
 
 **Tinkercad Simulation:**
+https://www.tinkercad.com/things/00HPbnr4mdj-led-blink
+
 ![Tinkercad Circuit](circuit_tinkercad.png)
 
 **Real Circuit Photo:**
