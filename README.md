@@ -47,16 +47,18 @@ All scripts are located in the `scripts/` folder and are organized in a progress
 | **03** | [LED Button](scripts/03.led_button/) | Control LED with a push button | Digital input, `digitalRead()`, edge detection, pull-up resistors |
 | **04** | [LED Fade](scripts/04.led_fade/) | Smooth fade in/out effect using PWM | PWM, `analogWrite()`, analog output, brightness control |
 | **05** | [LED Potentiometer](scripts/05.led_potentiometer/) | Control LED brightness with potentiometer | Analog input, `analogRead()`, `map()`, voltage divider |
+| **06** | [RGB LED](scripts/06.rgb_led/) | Control RGB LED to display different colors | RGB color model, multiple PWM outputs, color mixing, custom functions |
 
 ### 🎯 Learning Path
 
-Follow the scripts in numerical order (01, 02, 03, 04, 05...) to build your Arduino skills progressively:
+Follow the scripts in numerical order (01, 02, 03, 04, 05, 06...) to build your Arduino skills progressively:
 
 1. **Start with Basics** - Scripts 01-02 introduce digital output control
 2. **Add Interaction** - Script 03 introduces digital input with buttons
 3. **Explore Analog Output** - Script 04 introduces PWM and analog output
 4. **Explore Analog Input** - Script 05 introduces analog input with potentiometer
-5. **Continue Learning** - More scripts coming soon!
+5. **Multiple Outputs** - Script 06 introduces multiple PWM outputs with RGB LED
+6. **Continue Learning** - More scripts coming soon!
 
 ## 📁 Repository Structure
 
@@ -68,6 +70,7 @@ arduino-from-zero-to-expert/
 │   ├── 03.led_button/ # LED button control
 │   ├── 04.led_fade/   # LED fade effect
 │   ├── 05.led_potentiometer/ # LED brightness control with potentiometer
+│   ├── 06.rgb_led/    # RGB LED color control
 │   └── ...
 ├── docs/              # Tutorials and detailed documentation
 ├── AGENTS.md          # AI agent guidelines and coding standards

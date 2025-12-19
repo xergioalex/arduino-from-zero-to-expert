@@ -1,0 +1,201 @@
+# Arduino Learning Scripts Index
+
+Welcome to the Arduino Learning Scripts collection! This directory contains progressive Arduino projects designed to take you from zero to expert level. Each script is a complete, self-contained project with documentation, circuit diagrams, and code examples.
+
+## 📚 About This Collection
+
+All scripts are organized in numerical order (01, 02, 03...) representing a structured learning path. Each script builds upon concepts learned in previous scripts, creating a comprehensive learning experience.
+
+**What Each Script Includes:**
+- ✅ Complete source code with detailed comments
+- ✅ Circuit diagrams (Tinkercad simulation + real photos)
+- ✅ Component list and connection guide
+- ✅ Step-by-step instructions
+- ✅ Code explanation
+- ✅ Troubleshooting guide
+- ✅ Learning objectives and concepts
+
+## 🎯 Learning Path
+
+Follow the scripts in numerical order to build your Arduino skills progressively:
+
+1. **Scripts 01-02:** Digital Output Basics
+2. **Script 03:** Digital Input Introduction
+3. **Script 04:** Analog Output (PWM)
+4. **Script 05:** Analog Input
+5. **Script 06:** Multiple Outputs (RGB LED)
+6. **More coming soon...**
+
+## 📋 Complete Scripts Index
+
+### Beginner Level
+
+| # | Script | Description | Key Concepts | Difficulty |
+|---|--------|-------------|--------------|------------|
+| **01** | [LED ON](01.led/) | Turn on an LED and keep it on | Digital output, `pinMode()`, `digitalWrite()` | ⭐ Beginner |
+| **02** | [LED Blink](02.led_blink/) | Blink an LED on and off | Digital output, `delay()`, loops | ⭐ Beginner |
+| **03** | [LED Button](03.led_button/) | Control LED with a push button | Digital input, `digitalRead()`, edge detection, pull-up resistors | ⭐ Beginner |
+| **04** | [LED Fade](04.led_fade/) | Smooth fade in/out effect using PWM | PWM, `analogWrite()`, analog output, brightness control | ⭐ Beginner |
+| **05** | [LED Potentiometer](05.led_potentiometer/) | Control LED brightness with potentiometer | Analog input, `analogRead()`, `map()`, voltage divider | ⭐ Beginner |
+| **06** | [RGB LED](06.rgb_led/) | Control RGB LED to display different colors | RGB color model, multiple PWM outputs, color mixing, custom functions | ⭐ Beginner |
+
+## 📖 Detailed Script Information
+
+### 01. LED ON
+**Location:** [`01.led/`](01.led/)  
+**Description:** The perfect first Arduino project. Learn to turn on an LED and keep it on.  
+**Concepts:** Digital output, `pinMode()`, `digitalWrite()`, `setup()`, `loop()`  
+**Components:** Arduino, LED, Resistor (330Ω), Breadboard, Jumper wires  
+**Tinkercad:** Included in project README
+
+---
+
+### 02. LED Blink
+**Location:** [`02.led_blink/`](02.led_blink/)  
+**Description:** Create a blinking LED effect. Learn about timing and loops.  
+**Concepts:** Digital output, `delay()`, loops, timing control  
+**Components:** Arduino, LED, Resistor (330Ω), Breadboard, Jumper wires  
+**Tinkercad:** Included in project README
+
+---
+
+### 03. LED Button
+**Location:** [`03.led_button/`](03.led_button/)  
+**Description:** Control an LED with a push button. Toggle LED on/off with button presses.  
+**Concepts:** Digital input, `digitalRead()`, edge detection, pull-up resistors, button debouncing  
+**Components:** Arduino, LED, Resistor (330Ω), Push button, Breadboard, Jumper wires  
+**Tinkercad:** Included in project README
+
+---
+
+### 04. LED Fade
+**Location:** [`04.led_fade/`](04.led_fade/)  
+**Description:** Create smooth fade in/out effect using PWM. Control LED brightness smoothly.  
+**Concepts:** PWM (Pulse Width Modulation), `analogWrite()`, analog output, brightness control  
+**Components:** Arduino, LED, Resistor (330Ω), Breadboard, Jumper wires  
+**Tinkercad:** Included in project README
+
+---
+
+### 05. LED Potentiometer
+**Location:** [`05.led_potentiometer/`](05.led_potentiometer/)  
+**Description:** Control LED brightness with a potentiometer. Real-time brightness adjustment.  
+**Concepts:** Analog input, `analogRead()`, `map()`, voltage divider, potentiometer  
+**Components:** Arduino, LED, Resistor (330Ω), Potentiometer (10kΩ), Breadboard, Jumper wires  
+**Tinkercad:** Included in project README
+
+---
+
+### 06. RGB LED
+**Location:** [`06.rgb_led/`](06.rgb_led/)  
+**Description:** Control an RGB LED to display different colors. Learn color mixing and multiple PWM outputs.  
+**Concepts:** RGB color model, multiple PWM outputs, color mixing, custom functions, arrays  
+**Components:** Arduino, RGB LED, Resistors (3x 330Ω), Breadboard, Jumper wires  
+**Tinkercad:** Included in project README
+
+---
+
+## 🚀 Getting Started
+
+### How to Use These Scripts
+
+1. **Start with Script 01** - Begin with the first script in numerical order
+2. **Read the README** - Each script has a detailed README with complete documentation
+3. **Build the Circuit** - Follow the wiring diagrams provided
+4. **Upload the Code** - Open the `.ino` file in Arduino IDE and upload
+5. **Test and Observe** - Watch the results and understand how it works
+6. **Experiment** - Modify the code to learn more
+7. **Move to Next Script** - Progress to the next numbered script
+
+### Prerequisites
+
+- **Arduino IDE** - Download from [arduino.cc](https://www.arduino.cc/en/software)
+- **Arduino Board** - Uno, Nano, Mega, or compatible
+- **USB Cable** - To connect Arduino to computer
+- **Basic Components** - LEDs, resistors, breadboard, jumper wires (listed in each script)
+
+## 📊 Learning Progress Tracker
+
+Use this checklist to track your progress:
+
+- [ ] **01. LED ON** - Mastered digital output basics
+- [ ] **02. LED Blink** - Learned timing and loops
+- [ ] **03. LED Button** - Understood digital input
+- [ ] **04. LED Fade** - Learned PWM and analog output
+- [ ] **05. LED Potentiometer** - Mastered analog input
+- [ ] **06. RGB LED** - Learned multiple PWM outputs
+
+## 🎓 Concepts Covered
+
+### Digital I/O
+- ✅ Digital output (`digitalWrite()`)
+- ✅ Digital input (`digitalRead()`)
+- ✅ Pin configuration (`pinMode()`)
+- ✅ Pull-up resistors
+- ✅ Edge detection
+
+### Analog I/O
+- ✅ PWM (Pulse Width Modulation)
+- ✅ Analog output (`analogWrite()`)
+- ✅ Analog input (`analogRead()`)
+- ✅ Value mapping (`map()`)
+
+### Advanced Topics
+- ✅ Multiple PWM outputs
+- ✅ Color mixing (RGB)
+- ✅ Custom functions
+- ✅ Timing and delays
+- ✅ Button debouncing
+
+## 🔧 Component Reference
+
+Common components used across scripts:
+
+| Component | Used In | Purpose |
+|-----------|---------|---------|
+| LED | All scripts | Visual output indicator |
+| Resistor (330Ω) | All scripts | Current limiting for LEDs |
+| Push Button | Script 03 | Digital input device |
+| Potentiometer (10kΩ) | Script 05 | Analog input device |
+| RGB LED | Script 06 | Multi-color output |
+| Breadboard | All scripts | Prototyping platform |
+| Jumper Wires | All scripts | Circuit connections |
+
+## 📝 Notes
+
+- All scripts are designed for **Arduino Uno** but work with most Arduino-compatible boards
+- Scripts use **English** for all code, comments, and documentation
+- Each script is **self-contained** with complete documentation
+- **Circuit diagrams** are provided for both Tinkercad simulation and real circuits
+- Scripts follow **progressive difficulty** - complete them in order
+
+## 🔗 Quick Links
+
+- [Main Repository README](../README.md)
+- [Coding Standards (AGENTS.md)](../AGENTS.md)
+- [Arduino Official Documentation](https://www.arduino.cc/reference/en/)
+- [Arduino IDE Download](https://www.arduino.cc/en/software)
+
+## 🤝 Contributing
+
+If you'd like to add a new script:
+
+1. Follow the naming convention: `##.script_name/`
+2. Include complete documentation (README.md)
+3. Provide circuit diagrams (Tinkercad + real photos)
+4. Add detailed code comments
+5. Follow the coding standards in [AGENTS.md](../AGENTS.md)
+
+## 📚 Related Resources
+
+- [Arduino Language Reference](https://www.arduino.cc/reference/en/)
+- [Arduino Tutorials](https://www.arduino.cc/en/Tutorial/HomePage)
+- [Arduino Forum](https://forum.arduino.cc/)
+- [Tinkercad Circuits](https://www.tinkercad.com/circuits)
+
+---
+
+**Happy Learning!** 🎉
+
+*Last Updated: 2025*
+
