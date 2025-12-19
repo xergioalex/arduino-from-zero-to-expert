@@ -46,15 +46,17 @@ All scripts are located in the `scripts/` folder and are organized in a progress
 | **02** | [LED Blink](scripts/02.led_blink/) | Blink an LED on and off | Digital output, `delay()`, loops |
 | **03** | [LED Button](scripts/03.led_button/) | Control LED with a push button | Digital input, `digitalRead()`, edge detection, pull-up resistors |
 | **04** | [LED Fade](scripts/04.led_fade/) | Smooth fade in/out effect using PWM | PWM, `analogWrite()`, analog output, brightness control |
+| **05** | [LED Potentiometer](scripts/05.led_potentiometer/) | Control LED brightness with potentiometer | Analog input, `analogRead()`, `map()`, voltage divider |
 
 ### 🎯 Learning Path
 
-Follow the scripts in numerical order (01, 02, 03, 04...) to build your Arduino skills progressively:
+Follow the scripts in numerical order (01, 02, 03, 04, 05...) to build your Arduino skills progressively:
 
 1. **Start with Basics** - Scripts 01-02 introduce digital output control
 2. **Add Interaction** - Script 03 introduces digital input with buttons
-3. **Explore Analog** - Script 04 introduces PWM and analog output
-4. **Continue Learning** - More scripts coming soon!
+3. **Explore Analog Output** - Script 04 introduces PWM and analog output
+4. **Explore Analog Input** - Script 05 introduces analog input with potentiometer
+5. **Continue Learning** - More scripts coming soon!
 
 ## 📁 Repository Structure
 
@@ -65,6 +67,7 @@ arduino-from-zero-to-expert/
 │   ├── 02.led_blink/  # LED blink example
 │   ├── 03.led_button/ # LED button control
 │   ├── 04.led_fade/   # LED fade effect
+│   ├── 05.led_potentiometer/ # LED brightness control with potentiometer
 │   └── ...
 ├── docs/              # Tutorials and detailed documentation
 ├── AGENTS.md          # AI agent guidelines and coding standards
