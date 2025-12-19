@@ -4,24 +4,7 @@ A comprehensive learning repository for Arduino programming, from beginner basic
 
 ## 📚 About This Repository
 
-This repository is designed as a structured learning path for Arduino enthusiasts. Whether you're just starting out or looking to advance your skills, you'll find projects and examples organized by difficulty level and topic.
-
-## 🎯 Learning Path
-
-- **Beginner** - Basic concepts, simple circuits, and fundamental programming
-- **Intermediate** - Sensors, actuators, communication protocols, and more complex projects
-- **Advanced** - Advanced topics, libraries, optimization, and professional techniques
-
-## 📁 Repository Structure
-
-```
-arduino-from-zero-to-expert/
-├── projects/          # Complete Arduino projects with documentation
-├── examples/          # Code examples and snippets
-├── docs/              # Tutorials and detailed documentation
-├── scripts/           # Utility scripts (Python, shell, etc.)
-└── README.md          # This file
-```
+This repository is designed as a structured learning path for Arduino enthusiasts. Each project includes complete documentation, circuit diagrams, and step-by-step instructions to help you learn progressively.
 
 ## 🚀 Getting Started
 
@@ -32,76 +15,80 @@ arduino-from-zero-to-expert/
 - **USB Cable** - To connect your board to your computer
 - **Basic Components** - LEDs, resistors, breadboard, jumper wires (for beginner projects)
 
-### Installation
+### Quick Start
 
-1. **Install Arduino IDE**
-   - Download and install the latest version from the [official website](https://www.arduino.cc/en/software)
-   - Follow the installation instructions for your operating system
-
+1. **Install Arduino IDE** from the [official website](https://www.arduino.cc/en/software)
 2. **Clone This Repository**
    ```bash
    git clone https://github.com/yourusername/arduino-from-zero-to-expert.git
    cd arduino-from-zero-to-expert
    ```
+3. **Navigate to a Script** - Go to `scripts/` folder and choose a project
+4. **Open and Upload** - Open the `.ino` file in Arduino IDE, connect your board, and upload
 
-3. **Open a Project**
-   - Navigate to the `projects/` or `examples/` folder
-   - Open any `.ino` file in Arduino IDE
-   - Connect your Arduino board
-   - Select the correct board and port in Arduino IDE
-   - Click "Upload" to upload the code
+## 📖 Arduino Learning Scripts
 
-## 📖 How to Use This Repository
-
-1. **Start with the Basics** - Begin with projects in the `examples/` folder
-2. **Read the Documentation** - Each project includes a README with circuit diagrams and explanations
-3. **Build the Circuit** - Follow the wiring diagrams provided
-4. **Upload and Test** - Upload the code and observe the results
-5. **Experiment** - Modify the code to understand how it works
-6. **Move to Projects** - Once comfortable, try complete projects in the `projects/` folder
-
-## 🛠️ Projects
-
-Each project in the `projects/` folder includes:
-- Complete source code
-- Circuit diagram and connections
-- Component list
+All scripts are located in the `scripts/` folder and are organized in a progressive learning order. Each script includes:
+- Complete source code with comments
+- Circuit diagrams (Tinkercad simulation + real photos)
+- Component list and connections
 - Step-by-step instructions
 - Code explanation
 - Troubleshooting guide
 
-## 📝 Code Examples
+### 📋 Scripts Index
 
-The `examples/` folder contains:
-- Simple code snippets demonstrating specific concepts
-- Quick reference examples
-- Common patterns and techniques
+#### Beginner Level
 
-## 📚 Documentation
+| # | Script | Description | Concepts |
+|---|--------|-------------|----------|
+| **01** | [LED ON](scripts/01.led/) | Turn on an LED and keep it on | Digital output, `pinMode()`, `digitalWrite()` |
+| **02** | [LED Blink](scripts/02.led_blink/) | Blink an LED on and off | Digital output, `delay()`, loops |
+| **03** | [LED Button](scripts/03.led_button/) | Control LED with a push button | Digital input, `digitalRead()`, edge detection, pull-up resistors |
+| **04** | [LED Fade](scripts/04.led_fade/) | Smooth fade in/out effect using PWM | PWM, `analogWrite()`, analog output, brightness control |
 
-The `docs/` folder contains:
-- Detailed tutorials
-- Concept explanations
-- Best practices
-- Advanced topics
+### 🎯 Learning Path
+
+Follow the scripts in numerical order (01, 02, 03, 04...) to build your Arduino skills progressively:
+
+1. **Start with Basics** - Scripts 01-02 introduce digital output control
+2. **Add Interaction** - Script 03 introduces digital input with buttons
+3. **Explore Analog** - Script 04 introduces PWM and analog output
+4. **Continue Learning** - More scripts coming soon!
+
+## 📁 Repository Structure
+
+```
+arduino-from-zero-to-expert/
+├── scripts/           # Arduino learning scripts (numbered in learning order)
+│   ├── 01.led/        # LED ON example
+│   ├── 02.led_blink/  # LED blink example
+│   ├── 03.led_button/ # LED button control
+│   ├── 04.led_fade/   # LED fade effect
+│   └── ...
+├── docs/              # Tutorials and detailed documentation
+├── AGENTS.md          # AI agent guidelines and coding standards
+└── README.md          # This file
+```
+
+## 📖 How to Use This Repository
+
+1. **Start with Script 01** - Begin with the first script in the `scripts/` folder
+2. **Read the README** - Each script has a detailed README with circuit diagrams
+3. **Build the Circuit** - Follow the wiring diagrams provided
+4. **Upload and Test** - Upload the code and observe the results
+5. **Experiment** - Modify the code to understand how it works
+6. **Move to Next Script** - Progress to the next numbered script
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you'd like to add a project, example, or improve documentation:
-
-1. Fork the repository
-2. Create a new branch for your contribution
-3. Follow the coding standards (see [AGENTS.md](AGENTS.md))
-4. Add proper documentation
-5. Submit a pull request
-
-### Contribution Guidelines
+Contributions are welcome! Please follow these guidelines:
 
 - All code and documentation must be in **English**
-- Include a README.md for each project
-- Provide clear circuit diagrams and component lists
-- Add comments explaining complex logic
-- Follow Arduino coding conventions
+- Follow the coding standards in [AGENTS.md](AGENTS.md)
+- Include a comprehensive README.md for each script
+- Provide circuit diagrams (Tinkercad + real photos)
+- Add clear comments explaining the code
 
 ## 📄 License
 
@@ -113,10 +100,6 @@ See [LICENSE](LICENSE) file for details.
 - [Arduino IDE Guide](https://www.arduino.cc/en/guide)
 - [Arduino Language Reference](https://www.arduino.cc/reference/en/)
 - [Arduino Forum](https://forum.arduino.cc/)
-
-## 📧 Contact
-
-For questions, suggestions, or issues, please open an issue on GitHub.
 
 ---
 
