@@ -24,7 +24,10 @@ Follow the scripts in numerical order to build your Arduino skills progressively
 3. **Script 04:** Analog Output (PWM)
 4. **Script 05:** Analog Input
 5. **Script 06:** Multiple Outputs (RGB LED)
-6. **More coming soon...**
+6. **Script 07:** Actuators and Libraries (Servo Motor with Potentiometer)
+7. **Script 08:** Digital Control of Actuators (Servo Motor with Buttons)
+8. **Script 09:** Automatic Motion Patterns (Servo Motor Sweep)
+9. **More coming soon...**
 
 ## 📋 Complete Scripts Index
 
@@ -38,6 +41,9 @@ Follow the scripts in numerical order to build your Arduino skills progressively
 | **04** | [LED Fade](04.led_fade/) | Smooth fade in/out effect using PWM | PWM, `analogWrite()`, analog output, brightness control | ⭐ Beginner |
 | **05** | [LED Potentiometer](05.led_potentiometer/) | Control LED brightness with potentiometer | Analog input, `analogRead()`, `map()`, voltage divider | ⭐ Beginner |
 | **06** | [RGB LED](06.rgb_led/) | Control RGB LED to display different colors | RGB color model, multiple PWM outputs, color mixing, custom functions | ⭐ Beginner |
+| **07** | [Servo Motor Potentiometer](07.servo_motor_potentiometer/) | Control servo position with potentiometer | Servo library, actuators, `servo.write()`, position control, libraries | ⭐ Beginner |
+| **08** | [Servo Motor Button](08.servo_motor_button/) | Control servo position with buttons | Digital input control, edge detection, incremental positioning, button debouncing | ⭐ Beginner |
+| **09** | [Servo Motor Sweep](09.servo_motor_sweep/) | Automatic back-and-forth servo motion | Automatic control, for loops, continuous motion patterns, speed control | ⭐ Beginner |
 
 ## 📖 Detailed Script Information
 
@@ -95,6 +101,33 @@ Follow the scripts in numerical order to build your Arduino skills progressively
 
 ---
 
+### 07. Servo Motor Potentiometer
+**Location:** [`07.servo_motor_potentiometer/`](07.servo_motor_potentiometer/)  
+**Description:** Control a servo motor position using a potentiometer. Learn about actuators and Arduino libraries.  
+**Concepts:** Servo library, actuators, `servo.write()`, position control, libraries, analog to actuator  
+**Components:** Arduino, Servo Motor (SG90), Potentiometer (10kΩ), Breadboard, Jumper wires  
+**Tinkercad:** Included in project README
+
+---
+
+### 08. Servo Motor Button
+**Location:** [`08.servo_motor_button/`](08.servo_motor_button/)  
+**Description:** Control a servo motor position using push buttons. Left button moves counterclockwise, right button moves clockwise.  
+**Concepts:** Digital input control, edge detection, incremental positioning, button debouncing, angle limiting  
+**Components:** Arduino, Servo Motor (SG90), Push Buttons (2x), Breadboard, Jumper wires  
+**Tinkercad:** Included in project README
+
+---
+
+### 09. Servo Motor Sweep
+**Location:** [`09.servo_motor_sweep/`](09.servo_motor_sweep/)  
+**Description:** Create automatic back-and-forth sweeping motion with a servo motor. Continuous motion from 0° to 180° and back.  
+**Concepts:** Automatic control, for loops, continuous motion patterns, speed control, sequential positioning  
+**Components:** Arduino, Servo Motor (SG90), Breadboard, Jumper wires  
+**Tinkercad:** Included in project README
+
+---
+
 ## 🚀 Getting Started
 
 ### How to Use These Scripts
@@ -124,6 +157,9 @@ Use this checklist to track your progress:
 - [ ] **04. LED Fade** - Learned PWM and analog output
 - [ ] **05. LED Potentiometer** - Mastered analog input
 - [ ] **06. RGB LED** - Learned multiple PWM outputs
+- [ ] **07. Servo Motor Potentiometer** - Learned actuators and libraries
+- [ ] **08. Servo Motor Button** - Learned digital control of actuators
+- [ ] **09. Servo Motor Sweep** - Learned automatic motion patterns
 
 ## 🎓 Concepts Covered
 
