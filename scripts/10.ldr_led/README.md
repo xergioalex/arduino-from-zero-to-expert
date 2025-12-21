@@ -62,6 +62,37 @@ Arduino Board:
     5V ────[LDR]───[Pin A0]───[10kΩ Resistor]───GND
 ```
 
+**How the Voltage Divider Works (Step by Step):**
+
+The LDR and 10kΩ resistor form a **voltage divider circuit**. Here's how to connect it:
+
+1. **Connect one leg of LDR to 5V** (power)
+2. **Connect the other leg of LDR to Pin A0** (this is the middle point)
+3. **Connect Pin A0 to one leg of 10kΩ resistor** (same point as LDR)
+4. **Connect the other leg of 10kΩ resistor to GND** (ground)
+
+**Physical Connection:**
+```
+5V (Arduino)
+    │
+    ├───[LDR]───┐
+                │
+              Pin A0 (Arduino reads voltage here)
+                │
+    ┌───────────┘
+    │
+[10kΩ Resistor]
+    │
+    └─── GND (Arduino)
+```
+
+**How It Works:**
+- The **LDR** and **10kΩ resistor** are connected in **series** (one after the other)
+- Pin A0 is connected **between** them (at the junction point)
+- When **bright**: LDR has LOW resistance → Most voltage drops across 10kΩ → A0 reads LOW voltage
+- When **dark**: LDR has HIGH resistance → Most voltage drops across LDR → A0 reads HIGH voltage
+- Arduino reads the voltage at Pin A0 (0-5V = 0-1023 in digital value)
+
 ### Option 2: LDR Module (Recommended)
 
 **Circuit Connections:**
@@ -100,6 +131,16 @@ Arduino Board:
 - Potentiometer for sensitivity adjustment
 - LED indicator on module
 - Digital and analog outputs
+
+### Circuit Diagrams
+
+**Tinkercad Simulation:**
+https://www.tinkercad.com/things/aMCXe6Wqwjh-10-ldr-module-with-led
+
+![Tinkercad Circuit](circuit_tinkercad.png)
+
+**Real Circuit Photo:**
+![Real Circuit](circuit_real.png)
 
 **Important Notes:**
 
