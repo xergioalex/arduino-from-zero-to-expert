@@ -32,7 +32,8 @@ Follow the scripts in numerical order to build your Arduino skills progressively
 11. **Script 12:** Interactive Sound (Buzzer Button)
 12. **Script 13:** Temperature Sensing (LM35 Sensor)
 13. **Script 14:** Distance Measurement (Ultrasonic Sensor)
-14. **More coming soon...**
+14. **Script 15:** Display Output (LCD 16x2 with I2C)
+15. **More coming soon...**
 
 ## 📋 Complete Scripts Index
 
@@ -54,6 +55,7 @@ Follow the scripts in numerical order to build your Arduino skills progressively
 | **12** | [Buzzer Button](12.buzzer_button/) | Control sounds with buttons | Interactive control, multiple buttons, edge detection, button-triggered sounds | ⭐ Beginner |
 | **13** | [Temperature Sensor](13.temperature_sensor/) | Read temperature from LM35 sensor | Temperature sensors, analog reading, voltage conversion, real-world measurements | ⭐ Beginner |
 | **14** | [Ultrasonic Sensor](14.ultrasonic_sensor/) | Measure distance with HC-SR04 | Ultrasonic sensors, `pulseIn()`, distance calculation, timing measurements | ⭐ Beginner |
+| **15** | [LCD Display](15.lcd_display/) | Display text on 16x2 LCD using I2C | LCD displays, I2C communication, libraries, text formatting, data display | ⭐ Beginner |
 
 ## 📖 Detailed Script Information
 
@@ -184,6 +186,15 @@ Follow the scripts in numerical order to build your Arduino skills progressively
 
 ---
 
+### 15. LCD Display
+**Location:** [`15.lcd_display/`](15.lcd_display/)  
+**Description:** Display text and data on a 16x2 LCD display using I2C communication. Show information visually without Serial Monitor.  
+**Concepts:** LCD displays, I2C communication, libraries, text formatting, data display, cursor positioning  
+**Components:** Arduino, LCD 16x2 with I2C Module, Breadboard, Jumper wires (4 wires)  
+**Tinkercad:** Included in project README
+
+---
+
 ## 🚀 Getting Started
 
 ### How to Use These Scripts
@@ -221,6 +232,7 @@ Use this checklist to track your progress:
 - [ ] **12. Buzzer Button** - Learned interactive sound control
 - [ ] **13. Temperature Sensor** - Learned temperature sensing and data conversion
 - [ ] **14. Ultrasonic Sensor** - Learned distance measurement and timing
+- [ ] **15. LCD Display** - Learned display output and I2C communication
 
 ## 🎓 Concepts Covered
 
