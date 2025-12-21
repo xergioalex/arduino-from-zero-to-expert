@@ -28,7 +28,11 @@ Follow the scripts in numerical order to build your Arduino skills progressively
 7. **Script 08:** Digital Control of Actuators (Servo Motor with Buttons)
 8. **Script 09:** Automatic Motion Patterns (Servo Motor Sweep)
 9. **Script 10:** Environmental Sensors (LDR Light Sensor)
-10. **More coming soon...**
+10. **Script 11:** Sound Output (Buzzer - Basic and Melody examples)
+11. **Script 12:** Interactive Sound (Buzzer Button)
+12. **Script 13:** Temperature Sensing (LM35 Sensor)
+13. **Script 14:** Distance Measurement (Ultrasonic Sensor)
+14. **More coming soon...**
 
 ## 📋 Complete Scripts Index
 
@@ -46,6 +50,10 @@ Follow the scripts in numerical order to build your Arduino skills progressively
 | **08** | [Servo Motor Button](08.servo_motor_button/) | Control servo position with buttons | Digital input control, edge detection, incremental positioning, button debouncing | ⭐ Beginner |
 | **09** | [Servo Motor Sweep](09.servo_motor_sweep/) | Automatic back-and-forth servo motion | Automatic control, for loops, continuous motion patterns, speed control | ⭐ Beginner |
 | **10** | [LDR Light Sensor](10.ldr_led/) | Automatic LED control based on light level | LDR sensors, analog sensors, threshold logic, automatic control, voltage dividers | ⭐ Beginner |
+| **11** | [Buzzer](11.buzzer/) | Generate sounds and melodies (2 code examples) | Sound generation, `tone()`, `noTone()`, frequencies, arrays, loops, melody creation | ⭐ Beginner |
+| **12** | [Buzzer Button](12.buzzer_button/) | Control sounds with buttons | Interactive control, multiple buttons, edge detection, button-triggered sounds | ⭐ Beginner |
+| **13** | [Temperature Sensor](13.temperature_sensor/) | Read temperature from LM35 sensor | Temperature sensors, analog reading, voltage conversion, real-world measurements | ⭐ Beginner |
+| **14** | [Ultrasonic Sensor](14.ultrasonic_sensor/) | Measure distance with HC-SR04 | Ultrasonic sensors, `pulseIn()`, distance calculation, timing measurements | ⭐ Beginner |
 
 ## 📖 Detailed Script Information
 
@@ -139,6 +147,43 @@ Follow the scripts in numerical order to build your Arduino skills progressively
 
 ---
 
+### 11. Buzzer
+**Location:** [`11.buzzer/`](11.buzzer/)  
+**Description:** Generate sounds and melodies using a buzzer. Includes two code examples: basic note playing and complete melody playback.  
+**Concepts:** Sound generation, `tone()`, `noTone()`, frequencies, musical notes, arrays, loops, melody creation, PWM for sound  
+**Components:** Arduino, Buzzer (passive recommended), Breadboard, Jumper wires  
+**Code Files:** `buzzer_basic.ino` (individual notes), `buzzer_melody.ino` (complete melodies)  
+**Tinkercad:** Included in project README
+
+---
+
+### 12. Buzzer Button
+**Location:** [`12.buzzer_button/`](12.buzzer_button/)  
+**Description:** Control buzzer sounds using push buttons. Each button plays a different note or melody.  
+**Concepts:** Interactive control, multiple buttons, edge detection, button-triggered sounds, combining input with output  
+**Components:** Arduino, Buzzer (passive recommended), Push Buttons (4x), Breadboard, Jumper wires  
+**Tinkercad:** Included in project README
+
+---
+
+### 13. Temperature Sensor
+**Location:** [`13.temperature_sensor/`](13.temperature_sensor/)  
+**Description:** Read temperature from LM35 temperature sensor and display it. Real-world sensor reading and data conversion.  
+**Concepts:** Temperature sensors, analog reading, voltage conversion, real-world measurements, mathematical calculations  
+**Components:** Arduino, LM35 Temperature Sensor, Breadboard, Jumper wires  
+**Tinkercad:** Included in project README
+
+---
+
+### 14. Ultrasonic Sensor
+**Location:** [`14.ultrasonic_sensor/`](14.ultrasonic_sensor/)  
+**Description:** Measure distance using HC-SR04 ultrasonic sensor. Detect objects and measure distances.  
+**Concepts:** Ultrasonic sensors, `pulseIn()`, distance calculation, timing measurements, trigger/echo signals  
+**Components:** Arduino, HC-SR04 Ultrasonic Sensor, Breadboard, Jumper wires  
+**Tinkercad:** Included in project README
+
+---
+
 ## 🚀 Getting Started
 
 ### How to Use These Scripts
@@ -172,6 +217,10 @@ Use this checklist to track your progress:
 - [ ] **08. Servo Motor Button** - Learned digital control of actuators
 - [ ] **09. Servo Motor Sweep** - Learned automatic motion patterns
 - [ ] **10. LDR Light Sensor** - Learned environmental sensors and automatic control
+- [ ] **11. Buzzer** - Learned sound generation, notes, and melodies
+- [ ] **12. Buzzer Button** - Learned interactive sound control
+- [ ] **13. Temperature Sensor** - Learned temperature sensing and data conversion
+- [ ] **14. Ultrasonic Sensor** - Learned distance measurement and timing
 
 ## 🎓 Concepts Covered
 
