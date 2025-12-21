@@ -64,6 +64,16 @@ Arduino Board:
 - Linear output (no calibration needed)
 - Accurate to ±0.5°C at 25°C
 
+### Circuit Diagrams
+
+**Tinkercad Simulation:**
+https://www.tinkercad.com/things/aw3VUcXbqhx-13-lm35-temperature-sensor
+
+![Tinkercad Circuit](circuit_tinkercad.png)
+
+**Real Circuit Photo:**
+![Real Circuit](circuit_real.png)
+
 ## 💻 Code Explanation
 
 ### Key Concepts
