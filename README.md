@@ -51,6 +51,7 @@ All scripts are located in the `scripts/` folder and are organized in a progress
 | **07** | [Servo Motor Potentiometer](scripts/07.servo_motor_potentiometer/) | Control servo position with potentiometer | Servo library, actuators, `servo.write()`, position control, libraries |
 | **08** | [Servo Motor Button](scripts/08.servo_motor_button/) | Control servo position with buttons | Digital input control, edge detection, incremental positioning, button debouncing |
 | **09** | [Servo Motor Sweep](scripts/09.servo_motor_sweep/) | Automatic back-and-forth servo motion | Automatic control, for loops, continuous motion patterns, speed control |
+| **10** | [LDR Light Sensor](scripts/10.ldr_led/) | Automatic LED control based on light level | LDR sensors, analog sensors, threshold logic, automatic control, voltage dividers |
 
 ### 🎯 Learning Path
 
@@ -64,7 +65,8 @@ Follow the scripts in numerical order (01, 02, 03, 04, 05, 06, 07...) to build y
 6. **Actuators and Libraries** - Script 07 introduces servo motors and Arduino libraries
 7. **Digital Control of Actuators** - Script 08 shows button control of servos
 8. **Automatic Motion** - Script 09 demonstrates automatic sweep patterns
-9. **Continue Learning** - More scripts coming soon!
+9. **Environmental Sensors** - Script 10 introduces LDR sensors and automatic control
+10. **Continue Learning** - More scripts coming soon!
 
 ## 📁 Repository Structure
 
@@ -80,6 +82,7 @@ arduino-from-zero-to-expert/
 │   ├── 07.servo_motor_potentiometer/ # Servo motor control with potentiometer
 │   ├── 08.servo_motor_button/ # Servo motor control with buttons
 │   ├── 09.servo_motor_sweep/ # Automatic servo sweep motion
+│   ├── 10.ldr_led/ # LDR light sensor automatic LED control
 │   └── ...
 ├── docs/              # Tutorials and detailed documentation
 ├── AGENTS.md          # AI agent guidelines and coding standards

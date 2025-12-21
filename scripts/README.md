@@ -27,7 +27,8 @@ Follow the scripts in numerical order to build your Arduino skills progressively
 6. **Script 07:** Actuators and Libraries (Servo Motor with Potentiometer)
 7. **Script 08:** Digital Control of Actuators (Servo Motor with Buttons)
 8. **Script 09:** Automatic Motion Patterns (Servo Motor Sweep)
-9. **More coming soon...**
+9. **Script 10:** Environmental Sensors (LDR Light Sensor)
+10. **More coming soon...**
 
 ## 📋 Complete Scripts Index
 
@@ -44,6 +45,7 @@ Follow the scripts in numerical order to build your Arduino skills progressively
 | **07** | [Servo Motor Potentiometer](07.servo_motor_potentiometer/) | Control servo position with potentiometer | Servo library, actuators, `servo.write()`, position control, libraries | ⭐ Beginner |
 | **08** | [Servo Motor Button](08.servo_motor_button/) | Control servo position with buttons | Digital input control, edge detection, incremental positioning, button debouncing | ⭐ Beginner |
 | **09** | [Servo Motor Sweep](09.servo_motor_sweep/) | Automatic back-and-forth servo motion | Automatic control, for loops, continuous motion patterns, speed control | ⭐ Beginner |
+| **10** | [LDR Light Sensor](10.ldr_led/) | Automatic LED control based on light level | LDR sensors, analog sensors, threshold logic, automatic control, voltage dividers | ⭐ Beginner |
 
 ## 📖 Detailed Script Information
 
@@ -128,6 +130,15 @@ Follow the scripts in numerical order to build your Arduino skills progressively
 
 ---
 
+### 10. LDR Light Sensor
+**Location:** [`10.ldr_led/`](10.ldr_led/)  
+**Description:** Turn on LED automatically when it gets dark using LDR (Light Dependent Resistor). Automatic control based on light levels.  
+**Concepts:** LDR sensors, analog sensors, threshold logic, automatic control, voltage dividers, environmental sensing  
+**Components:** Arduino, LED, Resistor (330Ω), LDR (Light Dependent Resistor), Resistor (10kΩ), Breadboard, Jumper wires  
+**Tinkercad:** Included in project README
+
+---
+
 ## 🚀 Getting Started
 
 ### How to Use These Scripts
@@ -160,6 +171,7 @@ Use this checklist to track your progress:
 - [ ] **07. Servo Motor Potentiometer** - Learned actuators and libraries
 - [ ] **08. Servo Motor Button** - Learned digital control of actuators
 - [ ] **09. Servo Motor Sweep** - Learned automatic motion patterns
+- [ ] **10. LDR Light Sensor** - Learned environmental sensors and automatic control
 
 ## 🎓 Concepts Covered
 

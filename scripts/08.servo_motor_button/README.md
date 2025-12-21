@@ -56,6 +56,16 @@ Arduino Board:
     GND ─────────────────────────────[Right Button Pin 2]
 ```
 
+### Circuit Diagrams
+
+**Tinkercad Simulation:**
+https://www.tinkercad.com/things/3hljdn1Jxhi-8-servo-motor-buttons
+
+![Tinkercad Circuit](circuit_tinkercad.png)
+
+**Real Circuit Photo:**
+![Real Circuit](circuit_real.png)
+
 **Important Notes:**
 - **Servo has 3 wires:** Red (VCC/5V), Black/Brown (GND), Orange/Yellow (Signal)
 - **Signal wire** connects to PWM-capable pin (marked with ~ on Arduino Uno)
