@@ -71,6 +71,16 @@ Arduino Board:
 5. Arduino measures echo pulse duration
 6. Calculate distance: distance = (duration × speed of sound) / 2
 
+### Circuit Diagrams
+
+**Tinkercad Simulation:**
+https://www.tinkercad.com/things/5FfFdNfzGgM-14-ultra-sonic-distance-sensor
+
+![Tinkercad Circuit](circuit_tinkercad.png)
+
+**Real Circuit Photo:**
+![Real Circuit](circuit_real.png)
+
 ## 💻 Code Explanation
 
 ### Key Concepts
