@@ -33,7 +33,8 @@ Follow the scripts in numerical order to build your Arduino skills progressively
 12. **Script 13:** Temperature Sensing (LM35 Sensor)
 13. **Script 14:** Distance Measurement (Ultrasonic Sensor)
 14. **Script 15:** Display Output (LCD 16x2 with parallel connection)
-15. **More coming soon...**
+15. **Script 16:** Motor Control (DC Motor with L298N Driver)
+16. **More coming soon...**
 
 ## 📋 Complete Scripts Index
 
@@ -56,6 +57,7 @@ Follow the scripts in numerical order to build your Arduino skills progressively
 | **13** | [Temperature Sensor](13.temperature_sensor/) | Read temperature from LM35 sensor | Temperature sensors, analog reading, voltage conversion, real-world measurements | ⭐ Beginner |
 | **14** | [Ultrasonic Sensor](14.ultrasonic_sensor/) | Measure distance with HC-SR04 | Ultrasonic sensors, `pulseIn()`, distance calculation, timing measurements | ⭐ Beginner |
 | **15** | [LCD Display](15.lcd_display/) | Display text on 16x2 LCD using parallel connection | LCD displays, parallel communication, libraries, text formatting, data display | ⭐ Beginner |
+| **16** | [Motor DC Control](16.motor_dc/) | Control DC motor speed and direction with L298N | Motor control, PWM speed control, motor drivers, direction control, robotics | ⭐⭐ Beginner-Intermediate |
 
 ## 📖 Detailed Script Information
 
@@ -195,6 +197,15 @@ Follow the scripts in numerical order to build your Arduino skills progressively
 
 ---
 
+### 16. Motor DC Control
+**Location:** [`16.motor_dc/`](16.motor_dc/)  
+**Description:** Control a DC motor's speed and direction using an L298N motor driver module. Learn motor control fundamentals for robotics.  
+**Concepts:** Motor control, PWM speed control, motor drivers, direction control, H-bridge, robotics fundamentals  
+**Components:** Arduino, DC Motor, L298N Motor Driver Module, Power Supply (optional), Breadboard, Jumper wires  
+**Tinkercad:** Included in project README
+
+---
+
 ## 🚀 Getting Started
 
 ### How to Use These Scripts
@@ -232,7 +243,8 @@ Use this checklist to track your progress:
 - [ ] **12. Buzzer Button** - Learned interactive sound control
 - [ ] **13. Temperature Sensor** - Learned temperature sensing and data conversion
 - [ ] **14. Ultrasonic Sensor** - Learned distance measurement and timing
-- [ ] **15. LCD Display** - Learned display output and I2C communication
+- [ ] **15. LCD Display** - Learned display output and parallel communication
+- [ ] **16. Motor DC Control** - Learned motor control and PWM speed control
 
 ## 🎓 Concepts Covered
 

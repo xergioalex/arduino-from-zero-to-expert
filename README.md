@@ -57,6 +57,7 @@ All scripts are located in the `scripts/` folder and are organized in a progress
 | **13** | [Temperature Sensor](scripts/13.temperature_sensor/) | Read temperature from LM35 sensor | Temperature sensors, analog reading, voltage conversion, real-world measurements |
 | **14** | [Ultrasonic Sensor](scripts/14.ultrasonic_sensor/) | Measure distance with HC-SR04 | Ultrasonic sensors, `pulseIn()`, distance calculation, timing measurements |
 | **15** | [LCD Display](scripts/15.lcd_display/) | Display text on 16x2 LCD using parallel connection | LCD displays, parallel communication, libraries, text formatting, data display |
+| **16** | [Motor DC Control](scripts/16.motor_dc/) | Control DC motor speed and direction with L298N | Motor control, PWM speed control, motor drivers, direction control, robotics |
 
 ### 🎯 Learning Path
 
@@ -76,7 +77,8 @@ Follow the scripts in numerical order (01, 02, 03, 04, 05, 06, 07...) to build y
 12. **Temperature Sensing** - Script 13 introduces temperature sensors and data conversion
 13. **Distance Measurement** - Script 14 introduces ultrasonic sensors and distance calculation
 14. **Display Output** - Script 15 introduces LCD displays and parallel communication
-15. **Continue Learning** - More scripts coming soon!
+15. **Motor Control** - Script 16 introduces DC motor control with L298N driver
+16. **Continue Learning** - More scripts coming soon!
 
 ## 📁 Repository Structure
 
@@ -98,6 +100,7 @@ arduino-from-zero-to-expert/
 │   ├── 13.temperature_sensor/ # Temperature sensor reading
 │   ├── 14.ultrasonic_sensor/ # Ultrasonic distance measurement
 │   ├── 15.lcd_display/ # LCD 16x2 text display with parallel connection
+│   ├── 16.motor_dc/ # DC motor control with L298N driver
 │   └── ...
 ├── docs/              # Tutorials and detailed documentation
 ├── AGENTS.md          # AI agent guidelines and coding standards
